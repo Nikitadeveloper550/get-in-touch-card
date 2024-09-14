@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.header {
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.align-item-center
+{
+    display: flex;
+    align-items: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.bg-orange {
+    background-color: orangered;
+    color: #fff;
+}
+
+.w-700 {
+    font-weight: 700;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.pd-150
+{
+    padding: 150px  0;
+}
+
+.section-12
+{
+    font-family: "Plus Jakarta Sans";
+}
+
+.body-a-12 {
+    background-image: url(../img/sofaset-12.png);
+    display: flex;
+    line-height: 26px;
+    border-radius: 2rem;
+}
+
+.body-12 {
+    background-color: rgba(255, 0, 0, 0.75);
+    color: #fff;
+    border-radius: 2rem;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.dumy-12 {
+    padding-top: 65px;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.content-12{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-12 {
+   padding-top: 20px;
+   padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.75);
+    border: 1px solid white;
+    border-radius: 2rem;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
